@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles-tic-tac-toe.css">
+</head>
+<body>
+    <div id="gameModeSelection" class="game-mode-selection">
+        <button id="playerVsPlayer">Player vs Player</button>
+        <button id="playerVsAI">Player vs AI</button>
+    </div>
+
+    <div id="gameContainer" class="game-container" style="display: none;">
+        <div id="winMessage" class="win-message" style="display: none;">
+            <p id="winnerText"></p>
+        </div>
+        <div id="gameBoard" class="game-board"></div>
+        <div class="game-actions" style="display: none;">
+            <button id="playAgain">Play Again</button>
+            <a href="index.html" class="button">Back to Menu</a>
+        </div>
+    </div>
+
+    <script src="script-tic-tac-toe.js"></script>
+</body>
+</html>
